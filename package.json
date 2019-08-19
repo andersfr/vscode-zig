@@ -2,16 +2,16 @@
     "name": "zig",
     "displayName": "Zig",
     "description": "Language support for the Zig programming language",
-    "version": "0.2.2",
-    "publisher": "tiehuis",
+    "version": "0.1.0",
+    "publisher": "andersfr",
     "icon": "images/zig-icon.png",
     "license": "MIT",
     "repository": {
         "type": "git",
-        "url": "https://github.com/zig-lang/vscode-zig"
+        "url": "https://github.com/andersfr/vscode-zig"
     },
     "engines": {
-        "vscode": "^1.17.0"
+        "vscode": "^1.37.0"
     },
     "categories": [
         "Programming Languages"
@@ -77,6 +77,9 @@
                 }
             }
         }
+    },
+    "dependencies": {
+        "vscode-languageclient": "^5.2.1"
     },
     "scripts": {
         "vscode:prepublish": "npm run compile",
